@@ -9,5 +9,9 @@ public class JenkinsController {
     public String hello() {
         return "Hello Jenkins";
     }
+    @GetMapping("/bye")
+    public String bye() {
+        return "Bye Jenkins";
+    }
 
 }
